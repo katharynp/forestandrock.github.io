@@ -2,19 +2,12 @@ body {
   margin: 60px auto;
   width: 70%;
 }
-nav ul,
-footer ul {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  padding: 0px;
-  list-style: none;
-  color: #1563b7;
+
+header {
+  display: flex;
+  justify-content: space-around;
 }
-nav ul li,
-footer ul li {
-  display: inline;
-  margin-right: 20px;
-}
+
 a {
   text-decoration: none;
   color: #999;
