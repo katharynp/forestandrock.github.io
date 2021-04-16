@@ -1,5 +1,5 @@
 body {
-  margin: 60px auto;
+  margin: auto;
   width: 70%;
   background-image: linear-gradient(to top right, #1563b7, #3da5d9);
 }
@@ -28,6 +28,13 @@ h2 {
   color: #1563b7;
 }
 
+h2white {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
 h3 {
   font-size: 1em;
   font-family: "Poppins", sans-serif;
@@ -40,6 +47,13 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #f2700d;
+}
+
+h5 {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
 }
 
 p {
@@ -65,4 +79,11 @@ ul.posts li {
   list-style: none;
   font-family: "Poppins", sans-serif;
   font-size: 1em;
+}
+
+form {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #333;
 }
