@@ -3,15 +3,6 @@ body {
   width: 70%;
 }
 
-header {
-  background-color: #3da5d9;
-  border-radius: 0px 0px 12px 12px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 12px;
-}
-
 a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
