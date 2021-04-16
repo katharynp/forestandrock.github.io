@@ -29,12 +29,14 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-family:'Poppins', sans-serif;
+    font-weight: 700;
     color: #1563B7;
 }
 
 h3 {
     font-size: 1.5em;
     font-family:'Poppins', sans-serif;
+    font-weight: 700;
     color: #1563B7;
 }
 
