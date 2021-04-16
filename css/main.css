@@ -1,6 +1,7 @@
 body {
   margin: 60px auto;
   width: 70%;
+  background-image: linear-gradient(to top right, #1563b7, #3da5d9);
 }
 
 a {
