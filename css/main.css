@@ -82,8 +82,57 @@ ul.posts li {
 }
 
 form {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
-  line-height: 1.4em;
+  line-height: 1em;
   color: #333;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 2px;
+  border-style: solid;
+  border-color: #3da5d9;
+  width: 100%;
+  box-sizing: content-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #f2700d;
+  padding-left: 10px;
+}
+
+textarea:active {
+  outline: none;
+  border-color: #f2700d;
+  padding-left: 10px;
+}
+
+select {
+  border-radius: 10px;
+  border: 2px;
+  padding-left: 10px;
+  height: 30px;
+  border-style: solid;
+  border-color: #3da5d9;
+  width: 100%;
+  box-sizing: content-box;
+}
+select:focus {
+  outline: none;
+  border-color: #f2700d;
+  padding-left: 10px;
 }
