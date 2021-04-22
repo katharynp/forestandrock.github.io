@@ -15,9 +15,12 @@
     />
   </head>
   <style>
+
+
     .box {
       border-radius: 12px;
       background-color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
       padding: 24px;
       margin-top: 24px;
       margin-bottom: 24px;
@@ -29,7 +32,7 @@
     }
     .white-box {
       background-color: white;
-      box-shadow: 0px 0px 10px black;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
       border-radius: 12px;
       padding: 24px;
       margin-top: 24px;
@@ -38,9 +41,9 @@
 
     .white-square {
       background-color: white;
-      height: 400px;
-      width: 400px;
-      box-shadow: 0px 0px 10px black;
+      height: 200px;
+      width: 200px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
       border-radius: 12px;
       padding: 24px;
       margin-top: 24px;
@@ -52,7 +55,7 @@
       background-color: white;
       height: 150px;
       border-radius: 0px 0px 12px 12px;
-      box-shadow: 0px 0px 10px black;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
       display: flex;
       justify-content: space-between;
       flex-direction: row;
@@ -83,7 +86,7 @@
   border-radius: 10px;
   border: 2px;
   padding-left: 10px;
-  height: 30px;
+  height: 40px;
   border-style: solid;
   border-color: #3da5d9;
   width: 100%;
@@ -115,7 +118,20 @@ color: white;
 color: white;
 }
 
+footer {
+      background-color: white;
+      height: auto;
+      border-radius: 12px 12px 0px 0px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content:flex-start;
+}
 
+.logo{
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
   </style>
  
  
@@ -160,7 +176,7 @@ color: white;
       </h4>
     </div>
   </div class="yspacing">
-<h2white>Let's get started.</h2white>
+<h2white style="margin:20px">Let's get started.</h2white>
 </div class="yspacing">
 <div class="row">  
 <div class="box">
@@ -188,21 +204,34 @@ color: white;
     </h5>
   </div> 
 </div class="yspacing">
-<h2white>Find out more about what we do...</h2white>
-</div class="yspacing">
-<div class="row">
- <div class="white-square">Services</div>
- <div class="white-square">Portfolio</div>
- <div class="white-square">Testimonials</div>
+
+<div class="white-box">
+  <h2>Find out more about what we do...</h2>
+  <div class="row">
+   <div style="justify-content: center;">
+     <img src=Images/Services.png style="height: 200px"></img>
+<h4 style="text-align: center";">Services</h4>
+   </div>
+   <div style="justify-content: center;">
+    <img src=Images/Portfolio.png style="height: 200px"></img>
+<h4 style="text-align: center";">Portfolio</h4>
+  </div>
+  <div style="justify-content: center;">
+    <img src=Images/Testimonials.png style="height: 200px"></img>
+<h4 style="text-align: center";">Testimonials</h4>
+  </div>
+  </div>
 </div>
 
+
+
     <footer>
-      <ul>
-        <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        <li>
-          <a href="https://github.com/hankquinlan">github.com/hankquinlan</a>
-        </li>
-      </ul>
+      <div style="display: flex; align-items: center;">
+        <img class="logo" src=Images/Logo_blue_transparent.png style="height: 100px; padding-left: 50px; padding-right: 50px" ></img>
+        <img src=Images/Facebook.png style="height: 50px; padding-left: 10px; padding-right: 50px"></img>
+        <img src=Images/Linkedin.png style="height: 50px; padding-left: 10px; padding-right: 50px"></img>
+        <img src=Images/Instagram.png style="height: 50px; padding-left: 10px; padding-right: 50px"></img>
+      </div>
     </footer>
   </body>
 </html>
